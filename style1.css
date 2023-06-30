@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+        font-family: Arial, Helvetica, sans-serif;
+        --cor1: #000103;
+        --cor2: #700000;
+        --cor3: #ffffff;
+}
+
+body {
+    background-image: url(https://pbs.twimg.com/media/EbkQmyTXkAA9JZV?format=jpg&name=large);
+    background-position: 75% 10%;
+}
+
+.Logo {  
+    margin-top: 5vh;
+    margin-left: 100px;
+}
+
+.iframe-wrapper {
+    position: relative;
+    padding-top: 56.25%
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    left: 50;
+    top: 0;
+    border: 5px solid #4d0549;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.container {
+    max-width: 750px;
+}
